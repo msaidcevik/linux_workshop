@@ -1,0 +1,52 @@
+285  cd linux_workshop/
+  286  ls
+  287  pwd
+  288  mkdir clarusway && ll clarusway
+  289  cd clarusway/
+  290  ll
+  291  echo "hello" > test.txt
+  292  echo "My name is Robert" >> test.txt
+  293  cat test.txt
+  294  echo "hello, this is second text file" > test1.txt
+  295  cat test1.txt
+  296  cat test.txt test1.txt
+  297  touch multiple{1..10}.txt
+  298  ls
+  299  mkdir europe
+  300  cd europe/
+  301  touch lab.txt lab1.txt
+  302  echo "This is the second directories first file" > lab.txt
+  303  cat lab.txt
+  304  cp lab.txt newlab.txt
+  305  ls -l
+  306  cat newlab.txt
+  307  ls -a *.txt
+  308  ls -a n*.txt
+  309  cp newlab.txt ./newlab.txt
+  310  cp newlab.txt ../newlab.txt
+  311  ls
+  312  cd ..
+  313  ls
+  314  cp m*{6..10}.txt ./europe/
+  315  mv m*{1..3}.txt ./europe/
+  316  ls
+  317  cd europe/
+  318  ls
+  319  cd ..
+  320  mv newlab.txt linuxlab.txt
+  321  ls
+  322  ls -a linuxlab.txt
+  323  ll -a linuxlab.txt
+  324  chmod 777 linuxlab.txt
+  325  ll -a linuxlab.txt
+  326  chmod 400 linuxlab.txt
+  327  rm -rf linuxlab.txt
+  328  mkdir america
+  329  rmdir america/
+  330  cd europe/
+  331  touch .linuxworkshop.txt
+  332  ls
+  333  mv .linuxworkshop.txt linuxworkhop.txt
+  334  ls
+  335  cd ..
+  336  history

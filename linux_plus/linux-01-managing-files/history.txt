@@ -1,0 +1,50 @@
+    1  ls
+    2  mkdir linux-lessons && cd linux-lessons
+    3  vim clarusway.txt
+    4  head clarusway.txt
+    5  head -5 clarusway.txt
+    6  tail clarusway.txt
+    7  tail -5 clarusway.txt
+    8  cat clarusway.txt
+    9  echo "this is file1" > file1
+   10  echo "this is file2" > file2
+   11  echo "this is file3" > file3
+   12  cat file1 file2 file3
+   13  cat file1 file2 file3 > all.txt
+   14  cat > summer.txt
+   15  more clarusway.txt
+   16  less clarusway.txt
+   17  tac clarusway.txt
+   18  tac clarusway.txt > reserve-clarusway.txt
+   19  find . -name clarusway.txt
+   20  find /home -name clarusway.txt
+   21  find /home -iname clarusway.txt
+   22  find /home -type d -name linux-lessons
+   23  find . -type f -name "*.txt"
+   24  find . -type f -empty
+   25  find /home -type f -empty
+   26  find /home -size 100M
+   27  find /home -size +50M -size -100M
+   28  find /home -mtime 10
+   29  find /home -mtime -10
+   30  find /home -mtime +10
+   31  find . -mmin +10 -mmin -30
+   32  cat > grep.txt
+   33  nano linux.txt
+   34  vim linux.txt
+   35  grep "kernel" linux.txt
+   36  grep "is" *
+   37  grep "linux" linux.txt
+   38  grep -i "linux" linux.txt
+   39  grep -i "ker" linux.txt
+   40  grep -w "ker" linux.txt
+   41  grep -w "kernel" linux.txt
+   42  grep -v "kernel" linux.txt
+   43  grep "^li" clarusway.txt
+   44  grep "kernel.$" linux.txt
+   45  grep -A3 "line 5" clarusway.txt
+   46  grep -B2 "line 5" clarusway.txt
+   47  grep -C4 "line 5" clarusway.txt
+   48  man pwd | grep "print"
+   49  man find | grep -A5 "size"
+   50  history | grep "find"
